@@ -1,0 +1,12 @@
+// https://snook.ca/archives/html_and_css/font-size-with-rem
+html { font-size: 62.5%; } 
+body { font-size: 14px; font-size: 1.4rem; } /* =14px */
+h1   { font-size: 24px; font-size: 2.4rem; } /* =24px */
+
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

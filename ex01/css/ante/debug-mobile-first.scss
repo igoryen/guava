@@ -1,0 +1,302 @@
+// MOBILE FIRST
+
+//=========================================
+//      MIXINS
+//=========================================
+
+    @mixin debug( $bordercolor ) {
+        border: 1px solid $bordercolor;
+        margin: 5px;
+        border-radius: 3px;
+
+    }
+
+
+//=========================================
+//      DEBUG
+//=========================================
+
+
+@media screen and (min-width: 320px) {
+    html::before {
+        content: "320px\A P: iPod Touch, iPhone 5";
+        background-color: firebrick;
+
+        display: block;
+        white-space: pre;
+        color: white;
+       
+        border-radius: 5px;
+        border: 1px solid thistle;
+        box-shadow: 1px 1px 5px 1px #333;
+
+        font-size: 14px;
+        font-weight: bold;
+        padding: 2px 5px;
+        position: fixed;
+        right: 1%;
+        // z-index: 10000;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        top: 0em; 
+        // width: 9em;
+        opacity: 0.7;
+
+    }
+}
+
+@media screen and (min-width: 360px) {
+    html::before {
+        content: "360px\A P: Samsung Galaxy S7(Edge)-S8(x)";
+        background-color: gray;
+
+    }
+}
+
+@media screen and (min-width: 375px) {
+    html::before {
+        content: "375px\A P: iPhone 6-8, X";
+        background-color: navy;
+    }
+}
+
+@media screen and (min-width: 380px) {
+    html::before {
+        content: "380px\A";
+        background-color: orange;
+    }
+}
+
+@media screen and (min-width: 411px) {
+    html::before {
+        content: "411px\A P: Google Pixel, 2, 2XL, XL, Nexus 5X, 6P";
+        background-color: goldenrod;
+
+    }
+}
+
+
+@media screen and (min-width: 414px) {
+    html::before {
+        content: "414px\A P: iPhone 6-8";
+        background-color: orange;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    html::before {
+        content: "480px\A P: Samsung Galaxy Note 5, One Plus 3, LG G5";
+        background-color: blue;
+    }
+}
+
+
+
+@media screen and (min-width: 568px) {
+    html::before {
+        content: "568px\A L: iPhone 5, iPod Touch";
+        background-color: crimson;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    html::before {
+        content: "600px\A P: Nexus 7 (2013)";
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html::before {
+        content: "640px\A L: Samsung Galaxy S7(Edge)";
+        background-color: indigo;
+    }
+}
+
+
+@media screen and (min-width: 667px) {
+    html::before {
+        content: "667px\A L: iPhone 6-8";
+        background-color: red;
+    }
+}
+
+
+@media screen and (min-width: 720px) {
+
+    html::before {
+        content: "720px\A";
+        background-color: green;
+    }
+}
+
+
+@media screen and (min-width: 731px) {
+
+    html::before {
+        content: "731px\A L: Nexus 5X and 6P, Google Pixel, 2, 2 XL, XL";
+        background-color: teal;
+
+    }
+}
+
+@media screen and (min-width: 736px) {
+
+    html::before {
+        content: "736px\A L: iPhone 6-8 Plus";
+        background-color: green;
+    }
+}
+
+
+@media screen and (min-width: 740px) {
+
+    html::before {
+        content: "740px\A L: Samsung Galaxy S8(+)";
+        background-color: darkcyan;
+
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    html::before {
+        content: "768px\A P: Nexus 9, iPad 3-4 Gen, iPad Mini, 2-3, iPad Air 1-2";
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    html::before {
+        content: "800px\A P: Samsung Galaxy Tab 10";
+        background-color: mediumaquamarine;
+
+    }
+}
+
+
+@media screen and (min-width: 812px) {
+    html::before {
+        content: "812px\A L: iPhone X";
+        background-color: red;
+
+    }
+}
+
+
+@media screen and (min-width: 850px) {
+    html::before {
+        content: "850px\A P: Chromebook Pixel";
+        background-color: green;
+
+    }
+}
+
+
+@media screen and (min-width: 853px) {
+    html::before {
+        content: "853px\A L: Samsung Galaxy Note 5, One Plus 3, LG G5";
+        background-color: red;
+
+    }
+}
+
+@media screen and (min-width: 860px) {
+    html::before {
+        content: "860px\A";
+        background-color: navy;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    html::before {
+        content: "950px\A";
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    html::before {
+        content: "960px\A L: Nexus 7 (2013)";
+        background-color: purple;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html::before {
+        content: "1024px\A L: Nexus 9, iPad 3-4 gen., iPad Mini, 2-3, iPad Air 1-2.\A P: DT 19\", iPad Pro";
+        background-color: tomato;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    html::before {
+        content: "1050px\A P: DT 22\"";
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1136px) {
+    html::before {
+        content: "1136px\A";
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    html::before {
+        content: "1200px\A P: DT 24\", DT 20\"";
+        background-color: brown;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    html::before {
+        content: "1280px\A L: DT 19\", Chromebook Pixel, Samsung Galaxy Tab 10";
+        background-color: red;
+
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    html::before {
+        content: "1366px\A L: iPad Pro";
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    html::before {
+        content: "1440px\A";
+        background-color: black;
+    }
+}
+
+
+@media screen and (min-width: 1600px) {
+    html::before {
+        content: "1600px\A L: DT 20\"";
+        background-color: red;
+    }
+}
+  
+@media screen and (min-width: 1680px) {
+    html::before {
+        content: "1680px\A L: DT 22\"";
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+	html::before {
+		
+	    content: "1900px\A L: DT 24\" ";
+
+		background-color: red;
+
+	}
+}
+
