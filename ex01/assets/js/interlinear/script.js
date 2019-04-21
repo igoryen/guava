@@ -15,7 +15,11 @@ $( document ).ready(function() {
 	// var array = scope.stories.uheep;
 	// var ary = scope.stories.heaven180902;
 	// var ary = scope.stories.ps23;
-	var ary = scope.stories.che;
+	// var ary = scope.stories.che;
+	// var ary = scope.stories.cascada;
+	var ary = scope.stories.este_es_el_dia;
+
+
 	// 
 
 
